@@ -1,9 +1,12 @@
 import BudgetPage from "pages/BudgetPage";
+import { TransactionsProvider } from "services/contexts/TransactionsContext";
 
 function App() {
   return (
     <>
-      <BudgetPage />
+      <TransactionsProvider>
+          <BudgetPage />
+      </TransactionsProvider>
     </>
   );
 }

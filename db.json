@@ -1,0 +1,84 @@
+{
+  "Transactions": [
+    {
+      "id": "1",
+      "title": "a title",
+      "amount": 100,
+      "date": "2023-10-10",
+      "type": "income",
+      "category": "1"
+    },
+    {
+      "id": "2",
+      "title": "b title",
+      "amount": 50,
+      "date": "2023-10-11",
+      "type": "expense",
+      "category": "2"
+    },
+    {
+      "id": "3",
+      "title": "c title",
+      "amount": 200,
+      "date": "2023-10-12",
+      "type": "income",
+      "category": "1"
+    },
+    {
+      "id": "4",
+      "title": "d title",
+      "amount": 75,
+      "date": "2023-10-13",
+      "type": "expense",
+      "category": "3"
+    },
+    {
+      "id": "5",
+      "title": "e title",
+      "amount": 150,
+      "date": "2023-10-14",
+      "type": "income",
+      "category": "2"
+    },
+    {
+      "id": "6",
+      "title": "f title",
+      "amount": 30,
+      "date": "2023-10-15",
+      "type": "expense",
+      "category": "3"
+    }, 
+    {
+      "id": "7",
+      "title": "g title",
+      "amount": 120,
+      "date": "2023-10-16",
+      "type": "income",
+      "category": "1"
+    },
+    {
+      "id": "8",
+      "title": "h title",
+      "amount": 60,
+      "date": "2023-10-17",
+      "type": "expense",
+      "category": "2"
+    },
+    {
+      "id": "9",
+      "title": "i title",
+      "amount": 90,
+      "date": "2023-10-18",
+      "type": "income",
+      "category": "3"
+    },
+    {
+      "id": "10",
+      "title": "j title",
+      "amount": 40,
+      "date": "2023-10-19",
+      "type": "expense",
+      "category": "1"
+    }
+  ]
+} 
