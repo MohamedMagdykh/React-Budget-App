@@ -84,35 +84,35 @@
   "Categories": [
     {
       "id": "1",
-      "namw": " Business"
+      "name": "Business"
     },
     {
       "id": "2",
-      "namw": "Monthly income"
+      "name": "Monthly income"
     },
     {
       "id": "3",
-      "namw": "Investments"
+      "name": "Investments"
     },
     {
       "id": "4",
-      "namw": "Home needs"
+      "name": "Home needs"
     },
     {
       "id": "5",
-      "namw": "Bucket List"
+      "name": "Bucket List"
     },
     {
       "id": "6",
-      "namw": "Savings"
+      "name": "Savings"
     },
     {
       "id": "7",
-      "namw": "Freelance"
+      "name": "Freelance"
     },
     {
       "id": "8",
-      "namw": "Education"
+      "name": "Education"
     }
   ]
 } 
