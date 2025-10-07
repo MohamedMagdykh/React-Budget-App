@@ -14,7 +14,7 @@ export const getAllTransactions = async () =>{
   
         const response = await api.get("/Transactions");
         
-        console.log("response from getAllTransactions API ", response);
+
         
         return response.data;
 
