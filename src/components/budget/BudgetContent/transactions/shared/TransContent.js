@@ -4,24 +4,24 @@ import { TransactionsContext } from 'services/contexts/TransactionsContext'
 import SingleTrans from "./SingleTrans"
 
 const TransContent = () => {
-const{transactions , loading , error , removeTransaction } = useContext(TransactionsContext)
+const{transactions , loading , error } = useContext(TransactionsContext)
 
 
   return (
     <div className="trans_content">
-    { transactions.length && !loading && !error ?
+    { transactions.length && transactions && !loading && !error ?
       (transactions.map((data)=> (
-       <SingleTrans Transaction = {data} removeTransactionId= {removeTransaction} key={data.id} />
+       <SingleTrans Transaction = {data}  key={data.id} />
       
       ))) :  (<></>) 
 
      }
   
-    { !transactions.length && !loading && !error && <p   className="no-data" > No data </p>} 
+    { !transactions.length && transactions &&!loading && !error && <p   className="no-data text-center" > No data </p>} 
 
-    {loading && <p> loading ... </p>}
+    {loading && <p className='text-center'> loading ... </p>}
 
-      {error && !loading &&  <p> {error}  </p>}
+      {error && !loading &&  <p className='errorFont text-center'> {error}  </p>}
      
     </div>
   )

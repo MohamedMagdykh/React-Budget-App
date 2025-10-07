@@ -16,7 +16,7 @@ const isAmountted = useRef(false);
       }
 
       catch(err){
-       dispatch({ type: "FETCH_ERROR"  , payload: err });
+       dispatch({ type: "FETCH_ERROR"  , payload :err.message || "Unknown error" });
       }
    
      } , []
@@ -30,7 +30,7 @@ const addNewTransaction = async (data)=> {
       
     }
     catch(err){
-         dispatch({ type: "FETCH_ERROR"  , payload: err });
+         dispatch({ type: "FETCH_ERROR"  , payload: err.message || "Unknown error" });
     }
    
 }
@@ -42,7 +42,7 @@ const removeTransaction = async (id)=> {
         
     }
     catch(err){
-         dispatch({ type: "FETCH_ERROR"  , payload: err });
+         dispatch({ type: "FETCH_ERROR"  , payload: err.message || "Unknown error" });
     }
     
 }
@@ -54,7 +54,7 @@ const editTransaction = async (id , data)=> {
         
     }
     catch(err){
-      dispatch({ type: "FETCH_ERROR"  , payload: err });
+      dispatch({ type: "FETCH_ERROR"  , payload: err.message || "Unknown error" });
     }
 
 }

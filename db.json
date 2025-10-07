@@ -80,5 +80,39 @@
       "type": "expense",
       "category": "1"
     }
+  ],
+  "Categories": [
+    {
+      "id": "1",
+      "namw": " Business"
+    },
+    {
+      "id": "2",
+      "namw": "Monthly income"
+    },
+    {
+      "id": "3",
+      "namw": "Investments"
+    },
+    {
+      "id": "4",
+      "namw": "Home needs"
+    },
+    {
+      "id": "5",
+      "namw": "Bucket List"
+    },
+    {
+      "id": "6",
+      "namw": "Savings"
+    },
+    {
+      "id": "7",
+      "namw": "Freelance"
+    },
+    {
+      "id": "8",
+      "namw": "Education"
+    }
   ]
 } 
